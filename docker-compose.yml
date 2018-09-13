@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+    my_tv_list:
+        build: ./my-tv-list
+        image: my-tv-list
+        ports:
+          - 3000:3000

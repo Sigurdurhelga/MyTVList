@@ -2,7 +2,6 @@ language: node_js
 node_js:  
   - "8"  
   - "9"
-before_scipt:
-  - cd my-tv-list
+before_scipt: cd my-tv-list
 script:  
   - npm test

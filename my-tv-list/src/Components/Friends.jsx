@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-class Navigation extends Component {
+class Friends extends Component {
     render() {
         return (
             <p>This is the friends section.</p>
@@ -9,4 +9,4 @@ class Navigation extends Component {
     }
 }
 
-export default Navigation;
+export default Friends;

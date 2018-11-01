@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import Navigation from "./Components/Navigation";
 import Dashboard from "./Components/Dashboard";
 import Recommendations from "./Components/Recommendations";
 import Friends from "./Components/Friends";

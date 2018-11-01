@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import '../App.css';
+import UpcomingEpisodes from "./UpcomingEpisodes";
 
-class Navigation extends Component {
+class Dashboard extends Component {
     render() {
         return (
             <UpcomingEpisodes></UpcomingEpisodes>
@@ -9,4 +10,4 @@ class Navigation extends Component {
     }
 }
 
-export default Navigation;
+export default Dashboard;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-class Navigation extends Component {
+class Recommendations extends Component {
     render() {
         return (
             <p>This is the recommendations section.</p>
@@ -9,4 +9,4 @@ class Navigation extends Component {
     }
 }
 
-export default Navigation;
+export default Recommendations;

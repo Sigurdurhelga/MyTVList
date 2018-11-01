@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Dashboard from "./Components/Dashboard";
-import Recommendations from "./Components/Recommendations";
-import Friends from "./Components/Friends";
+import Dashboard from "./Components/Dashboard/Dashboard";
+import Recommendations from "./Components/Recommendations/Recommendations";
+import Friends from "./Components/Friends/Friends";
 
 import {Tabs, Tab} from "react-bootstrap";
 

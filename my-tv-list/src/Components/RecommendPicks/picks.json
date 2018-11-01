@@ -1,17 +1,14 @@
 [
   {
     "Title": "Chuck",
-    "Description":"I like this show",
     "ImgLink":"/Chuck.jpg"
   },
   {
-    "Title": "Chuck",
-    "Description":"I like this show",
-    "ImgLink":"/Chuck.jpg"
+    "Title": "Konosuba",
+    "ImgLink":"/konosuba_small.jpg"
   },
   {
-    "Title": "Chuck",
-    "Description":"I like this show",
-    "ImgLink":"/Chuck.jpg"
+    "Title": "Game of Thrones",
+    "ImgLink":"/got_small.jpeg"
   }
 ]

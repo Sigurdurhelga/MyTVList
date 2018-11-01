@@ -3,7 +3,9 @@ import React from 'react';
 const Pick = ({Title, ImgLink}) => {
   var divImage = {
     backgroundImage : 'url(' + ImgLink + ')',
-    backgroundSize : 'cover',
+    backgroundSize : 'contain',
+    backgroundRepeat : 'no-repeat',
+    backgroundPosition : 'center',
     width: 300,
     height: 300
   };

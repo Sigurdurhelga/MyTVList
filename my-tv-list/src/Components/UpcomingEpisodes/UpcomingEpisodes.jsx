@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
 import '../App.css';
+import { ListGroup } from "react-bootstrap";
+import EpisodeListItem from "./EpisodeListItem";
 
 class UpcomingEpisodes extends Component {
     render() {
         return (
-            <p></p>
+            <ListGroup>
+                <EpisodeListItem show="Chuck" season={1} episode={1} episodeName={"Chuck versus the Intersect"}/>
+                <EpisodeListItem show="Chuck" season={1} episode={2} episodeName={"Chuck versus the Helicopter"}/>
+                <EpisodeListItem show="Chuck" season={1} episode={3} episodeName={"Chuck versus the Tango"}/>
+            </ListGroup>
         );
     }
 }

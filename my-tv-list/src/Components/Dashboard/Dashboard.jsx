@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
-import UpcomingEpisodes from "./UpcomingEpisodes";
+import UpcomingEpisodes from "../UpcomingEpisodes/UpcomingEpisodes";
 
 class Dashboard extends Component {
     render() {

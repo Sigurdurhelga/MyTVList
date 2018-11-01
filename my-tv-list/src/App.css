@@ -11,3 +11,33 @@
 button {
   height: 50px;
 }
+
+.top-recommendations {
+  width: 900px;
+  height: 500px;
+  margin: 0 auto 20px auto;
+}
+
+.picks-area{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.pick {
+
+}
+
+.pick-title{
+  position: relative;
+  top: 90%;
+  height: 15%;
+  width: 80%;
+  margin: 0 auto;
+  vertical-align: middle;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(0,0,0,0.7);
+}

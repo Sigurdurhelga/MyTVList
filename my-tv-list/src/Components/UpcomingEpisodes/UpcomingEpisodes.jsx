@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import '../App.css';
+import '../../App.css';
 import { ListGroup } from "react-bootstrap";
-import EpisodeListItem from "./EpisodeListItem";
+import EpisodeListItem from "../EpisodeListItem/EpisodeListItem";
 
 class UpcomingEpisodes extends Component {
     render() {

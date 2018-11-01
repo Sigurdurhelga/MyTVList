@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../App.css';
+import '../../App.css';
 import { ListGroupItem } from "react-bootstrap";
 
 class EpisodeListItem extends Component {

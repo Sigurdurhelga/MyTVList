@@ -1,7 +1,10 @@
 language: node_js
-node_js:  
-  - "8"  
-  - "9"
+node_js:
+- '8'
+- '9'
 before_install: cd my-tv-list
-script:  
-  - npm test
+script:
+- npm test
+deploy:
+  api_key:
+    secure: bqD0giPkp20nW1sNBWLtmzAVzbbg4v+Z+wa2kJNTH3Eo/oXTWQzM4cWGyI09uX7d+EFc62TlEzgcTt+jlJNzaQIWDDUVvRa6N8GMYUN6b0BH+F6yb0BEk31Att4s4Bw/mRWCpHh8y9d0IpVl5EaVK41n/6igopRx/o2TitwblCRrSyZ3yC/apAThcDWe50sZxG2vOw2wuXE1finEg7/0+VI3IOHRlgYxhl/CYuhCJLn8Z7u/81i0Y02ACGZ8hGfv7Tvo7/XY7WvNp2vH3sh/5rgHDar+FMf5yzr21gCqx0uepJzJ5gwFGJbHVW6kmMyPvTSmpQbF63O5aVu/6OJdvJsHsdCd7SXWAY/yGwPEHSnuFATDbIMOA92YIKidqw2VdYSP3/bitcf8crmKiDbrND88hJBX0go7vQC5yscAUTflynL3JaBDQ35GwPjY/2mWDY4bL23GLYoGaCX5NlWoXWD0b0TgqV50E8yAYdFWnTvGRnvOb6gNT0b6cnuXwznUlU0cFjIYBr2qpWPTkMijbuZhRTkvyZ4g6as71pail26H9vuCoLOoqIa5lCECfeqKwd+iReJUrLxt0ApDS4YQz7vr30J4EPR3O5bZJtf+cBxA9RRAT+1vYfCVp4Mm5Lo19z1ujd/jWh8jfuoEqlWeMQcZ8kFrn4Y+q/K4j4lNkvc=

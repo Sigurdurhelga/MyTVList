@@ -18,7 +18,6 @@ class TopPicks extends Component {
   }
 
     render() {
-      console.log("rendering recommendpicks");
         return (
           <div className='picks-area'>
             {this.state.picks.map((item,ind) => <Pick key={ind} Title={item.Title} ImgLink={item.ImgLink} />)}

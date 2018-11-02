@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Logo from './Components/Logo/Logo';
 import Dashboard from "./Components/Dashboard/Dashboard";
 import Recommendations from "./Components/Recommendations/Recommendations";
 import Friends from "./Components/Friends/Friends";
@@ -17,6 +18,7 @@ class App extends Component {
     render() {
         return (
             <div>
+                <Logo />
                 <Tabs id="pages" activeKey={this.state.page} onSelect={(e) => {this.setState({page: e})}}>
                     <Tab eventKey={"Dashboard"} title="Dashboard">
                         <Dashboard></Dashboard>

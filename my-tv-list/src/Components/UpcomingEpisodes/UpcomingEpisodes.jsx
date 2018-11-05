@@ -50,6 +50,16 @@ class UpcomingEpisodes extends Component {
                                Is this a reference to something I don't get or what?
                             </Panel.Body>
                         </Panel>
+                        <Panel>
+                            <Panel.Heading>
+                                <Panel.Title>
+                                    Everybody loves LIVE DEMOS!
+                                </Panel.Title>
+                            </Panel.Heading>
+                            <Panel.Body>
+                               Hey guys this change, will change the world1 (Daremoga raibu demo o daisuki!!)
+                            </Panel.Body>
+                        </Panel>
                     </PanelGroup>
                 </div>
             </div>

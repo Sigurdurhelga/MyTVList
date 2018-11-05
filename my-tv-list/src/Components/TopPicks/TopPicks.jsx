@@ -17,14 +17,14 @@ class TopPicks extends Component {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img width={900} height={500} alt="900x500" src="/got.jpg" />
+                    <img width={900} height={500} alt="Game of Thrones" src="/got.jpg" />
                     <Carousel.Caption>
                     <h3>Game of Thrones</h3>
                     <p>Nine noble families fight for control over the mythical lands of Westeros, while an ancient enemy returns after being dormant for thousands of years.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img width={900} height={500} alt="900x500" src="/konosuba.jpg" />
+                    <img width={900} height={500} alt="Konosuba" src="/konosuba.jpg" />
                     <Carousel.Caption>
                     <h3>Konosuba</h3>
                     <p>It was a happy day for Kazuma - right up to the moment he died. A goddess intervenes and offers him a second chance in a magical land.</p>

@@ -20,7 +20,7 @@ class UpcomingEpisodes extends Component {
                 <div style={{float: "right", padding: "5%", paddingTop: "0%", width: "50%"}}>
                     <h2>Recent news:</h2>
                     <PanelGroup>
-                        <Panel>
+                        <Panel eventKey="1">
                             <Panel.Heading>
                                 <Panel.Title>
                                     Chuck rocks!
@@ -30,7 +30,7 @@ class UpcomingEpisodes extends Component {
                                 Hey guys, this week's chuck is pretty good, recommend checking it out!
                             </Panel.Body>
                         </Panel>
-                        <Panel>
+                        <Panel eventKey="2">
                             <Panel.Heading>
                                 <Panel.Title>
                                     Tweet by @ZacharyLevi
@@ -40,7 +40,7 @@ class UpcomingEpisodes extends Component {
                                 Congrats @kyle_newman. You’re a published author. I can barely make it to the gym. 💁‍♀️ #20sidedsexy @ New York, New York https://www.instagram.com/p/BpXc44TheQ3/?
                             </Panel.Body>
                         </Panel>
-                        <Panel>
+                        <Panel eventKey="3">
                             <Panel.Heading>
                                 <Panel.Title>
                                     Chuck Season 1 Episode 1, anybody catch that "vicky vale vick-vicky vale" thing?
@@ -50,21 +50,25 @@ class UpcomingEpisodes extends Component {
                                Is this a reference to something I don't get or what?
                             </Panel.Body>
                         </Panel>
-                        <Panel>
+                    </PanelGroup>;
+                </div>
+            </div>
+        );
+    }
+}
+/*
+                        
+                        <Panel eventKey="4">
                             <Panel.Heading>
                                 <Panel.Title>
                                     Everybody loves LIVE DEMOS!
                                 </Panel.Title>
                             </Panel.Heading>
                             <Panel.Body>
-                               Hey guys this change, will change the world1 (Daremoga raibu demo o daisuki!!)
+                               Hey guys this change will change the world!!1!!one!! (Daremoga raibu demo o daisuki!!)
                             </Panel.Body>
                         </Panel>
-                    </PanelGroup>
-                </div>
-            </div>
-        );
-    }
-}
+
+*/
 
 export default UpcomingEpisodes;

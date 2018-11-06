@@ -50,14 +50,6 @@ class UpcomingEpisodes extends Component {
                                Is this a reference to something I don't get or what?
                             </Panel.Body>
                         </Panel>
-                    </PanelGroup>;
-                </div>
-            </div>
-        );
-    }
-}
-/*
-                        
                         <Panel eventKey="4">
                             <Panel.Heading>
                                 <Panel.Title>
@@ -68,6 +60,14 @@ class UpcomingEpisodes extends Component {
                                Hey guys this change will change the world!!1!!one!! (Daremoga raibu demo o daisuki!!)
                             </Panel.Body>
                         </Panel>
+                    </PanelGroup>;
+                </div>
+            </div>
+        );
+    }
+}
+/*
+                        
 
 */
 
